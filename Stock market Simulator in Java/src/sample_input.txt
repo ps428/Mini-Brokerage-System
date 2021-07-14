@@ -1,0 +1,52 @@
+
+Add scrip: INFY, sector: IT, O:890, H:890, L:890, C:890
+
+Add scrip: TCS, sector: IT, O:2250, H:2250, L:2250, C:2250
+
+Add scrip: SBI, sector: Bank, O:195, H:195, L:195, C:195
+
+Add scrip: M&M, sector: Auto, O:610, H:610, L:610, C:610
+
+Add scrip: Cipla, sector: Pharma, O:790, H:790, L:790, C:790
+
+Add scrip: Sunpharma, sector: Pharma, O:490, H:490, L:490, C:490
+
+Add user: Jaydeep, funds:25000 holding: None
+
+Add user: Mimi, funds:1000 holding: {INFY:10, TCS:5, SBI:20}
+
+Add user: Kapil, funds:25000 holding: {SBI:100, M&M:20}
+
+Add user: Nusrat, funds:2000 holding: {INFY:20, M&M:25, SBI:25}
+
+Place order, user: Jaydeep, type: buy, scrip: INFY, qty:10, rate: 790
+
+Place order, user: Jaydeep, type: buy, scrip: SBI, qty:100, rate: 210
+
+Place order, user: Mimi, type: sell, scrip: INFY, qty:10, rate: 900
+
+Place order, user: Kapil, type: buy, scrip: M&M, qty:10, rate: 580
+
+Place order, user: Nusrat, type: sell, scrip: SBI, qty:25, rate: 195
+
+Place order, user: Mimi, type: buy, scrip: TCS, qty:5, rate: 2190
+
+Show Orderbook
+
+Execute
+
+Show sector: Pharma
+
+Delete scrip: TCS
+
+Delete User: Jaydeep
+
+Delete scrip: M&M
+
+Delete User: Kapil
+
+Show Scrips
+
+Show Users
+
+Exit
